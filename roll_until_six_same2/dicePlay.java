@@ -3,8 +3,6 @@ import java.util.Random;
 public class dicePlay {
 
     public static void main(String[] args) {
-        Dice dices[] = new Dice[6];
-        int roundCounter = 0;
 
         Dice dice1 = new Dice();
         Dice dice2 = new Dice();
@@ -13,12 +11,8 @@ public class dicePlay {
         Dice dice5 = new Dice();
         Dice dice6 = new Dice();
 
-        int firstDice;
-        int secondDice;
-        int thirdDice;
-        int fourthDice;
-        int fifthDice;
-        int sixthDice;
+        int firstDice, secondDice, thirdDice, fourthDice, fifthDice, sixthDice;
+        int roundCounter = 0;
 
         do {
             roundCounter++;
@@ -40,6 +34,5 @@ public class dicePlay {
         System.out.println("\nNr of rounds to find 6 match: " + roundCounter);
 
     }
-
 }
 
