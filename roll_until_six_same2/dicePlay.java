@@ -27,12 +27,10 @@ public class dicePlay {
             System.out.println("Dice nr. 1\t|\tDice nr.2\t|\tDice nr.3\t|\tDice nr. 4\t|\tDice nr.5\t|\tDice nr.6\t|");
             System.out.println(String.format("\t%s\t\t|\t\t%s\t\t|\t\t%s\t\t|\t\t%s\t\t|\t\t%s\t\t|\t\t%s\t\t|",
                     firstDice,secondDice,thirdDice,fourthDice,fifthDice,sixthDice));
-
         } while (!(firstDice == secondDice && firstDice == thirdDice && firstDice == fourthDice &&
                 firstDice == fifthDice && firstDice == sixthDice));
 
         System.out.println("\nNr of rounds to find 6 match: " + roundCounter);
-
     }
 }
 
